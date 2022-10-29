@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ropa Sans', sans-serif
+}
+
+.container{
+    max-width: 2080px;
+    width: 100%;
+}
+
+header {
+    color: #777777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+header .logo h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+header .logo p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+section.banner {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+section.options{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 182px;
+}
+
+section.options article{
+    width: 30%;
+    background-color: #EEEEEE;
+    
+}
+
+section.options article img{
+    width: 100%;
+}
+
+section.options article .description{
+    margin-top: 5px;
+    padding: 5px 30px;
+    color: #888888;
+    text-align: justify;
+}
+
+section.options article .description .first-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.options article .description .first-line .value{
+    font-size: 2rem;
+}
+
+section.options article .description .first-line .status-new{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-color: #51D275;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+section.options article .description .first-line .status-sale{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-color: #DC9730;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+
+section.options article .description .second-line{
+    margin-top: 10px;
+}
+
+
