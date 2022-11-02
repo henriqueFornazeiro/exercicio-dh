@@ -101,4 +101,130 @@ section.options article .description .second-line{
     margin-top: 10px;
 }
 
+section.styles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 65px auto;
+    color: #888888;
+    text-transform: capitalize;
+}
+
+section.styles h3{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+
+section.styles ul li{
+    font-size: 2rem;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+    width: 85vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.styles ul li.industrial,
+section.styles ul li.modern,
+section.styles ul li.classic{
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.styles ul li.industrial::before,
+section.styles ul li.modern::before,
+section.styles ul li.classic::before {    
+    content: "";
+    background-size:contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.55;
+}
+
+section.styles ul li.industrial::before{
+    background-image: url("../img/industrial.png");
+}
+
+section.styles ul li.modern::before{
+    background-image: url("../img/modern.png");
+}
+
+section.styles ul li.classic::before{
+    background-image: url("../img/classic.png");
+} 
+
+section.styles ul li.industrial p,
+section.styles ul li.modern p,
+section.styles ul li.classic p{
+    position: relative;
+    color: #ffffff;  
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.877);
+}
+
+footer{
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 25px;
+}
+
+footer .left-content iframe{
+    width: 30vw;
+    height: 60vh;
+    border-radius: 19px;
+}
+
+footer .right-content{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    line-height:40px;
+}
+
+footer .right-content address{
+    font-style: normal;
+}
+
+footer .right-content .medias p{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+footer .right-content .medias ul{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+
+footer .right-content .medias ul li{
+   list-style-type: none;
+}
+
+
+footer .right-content .medias ul li a img{
+   width: 30px
+ }
+
+
+
+
+
+
+
 
